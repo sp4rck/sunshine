@@ -33,8 +33,12 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sp4rck.sunshine.app.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
+        <provider
+            android:authorities="com.sp4rck.sunshine.app"
+            android:name=".data.WeatherProvider"
+          />
     </application>
 
 </manifest>
