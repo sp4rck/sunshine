@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_unit_choices">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="pref_unit_choices_alias">
+        <item>f</item>
+        <item>c</item>
+    </string-array>
+</resources>
